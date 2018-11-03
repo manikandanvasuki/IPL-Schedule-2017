@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    style="@style/linear_vertical">
+
+    <LinearLayout
+        style="@style/linear_vertical">
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+            <ImageView
+                style="@style/imageview_style"
+                android:background="#b71f1f"
+                android:src="@drawable/dd"/>
+            <TextView
+                android:id="@+id/Delhi"
+                style="@style/textbox_style"
+                android:background="#b71f1f"
+                android:text="@string/DD"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="#9e2120"
+                android:padding="4dp"
+                android:src="@drawable/kxip"/>
+            <TextView
+                android:id="@+id/Punjab"
+                style="@style/textbox_style"
+                android:background="#9e2120"
+                android:text="@string/KXIP"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+
+            <ImageView
+                style="@style/imageview_style"
+                android:src="@drawable/gl"
+                android:background="#e4660b"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/Gujrat"
+                style="@style/textbox_style"
+                android:background="#e4660b"
+                android:text="@string/GL"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+
+            <ImageView
+                style="@style/imageview_style"
+                android:background="#fb653f"
+                android:src="@drawable/srh"/>
+            <TextView
+                android:id="@+id/Hyderabad"
+                style="@style/textbox_style"
+                android:background="#fb653f"
+                android:text="@string/SRH"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+
+            <ImageView
+                style="@style/imageview_style"
+                android:background="#db3e48"
+                android:src="@drawable/rcb"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/Bangalore"
+                style="@style/textbox_style"
+                android:background="#db3e48"
+                android:text="@string/RCB"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+
+            <ImageView
+                style="@style/imageview_style"
+                android:background="#005ea0"
+                android:src="@drawable/mi"/>
+            <TextView
+                android:id="@+id/Mumbai"
+                style="@style/textbox_style"
+                android:background="#005ea0"
+                android:text="@string/MI"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+
+            <ImageView
+                style="@style/imageview_style"
+                android:background="#153359"
+                android:src="@drawable/rps"/>
+            <TextView
+                android:id="@+id/Pune"
+                style="@style/textbox_style"
+                android:background="#153359"
+                android:text="@string/RPS"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/linear_horizontal">
+
+            <ImageView
+                style="@style/imageview_style"
+                android:background="#3d2256"
+                android:src="@drawable/kkr"/>
+            <TextView
+                android:id="@+id/Kolkata"
+                style="@style/textbox_style"
+                android:background="#3d2256"
+                android:text="@string/KKR"
+                />
+
+        </LinearLayout>
+
+       <com.google.android.gms.ads.AdView
+            android:id="@+id/admob_adview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_footer_firstpage" />
+
+
+    </LinearLayout>
+
+</ScrollView>

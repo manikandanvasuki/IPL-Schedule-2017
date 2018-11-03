@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_disclaimer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mahisarashyu.iplschedule21century.disclaimer">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#121212"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text="  IPL Schedule has data mined from third party sources and hence does not take any responsibility for the reliability of data. Though the data has been reviewed and edited to maintain a higher level of accuracy, we disclaim all warranties as to the accuracy, completeness or adequacy of such information.\n
+    Any other content furnished in the app is subject to copyright held by MHS Solutions. The software, text used in the app belong to MHS Solutions. Logo for the respective teams are trademarks and copyright of their respective owners and we do not hold any right on them. Images used in the app have been mined from third party sources and we do not claim any right on them.\n
+    MHS Solutions is not responsible for third party content accessible through the app, including opinions, advice, statements and advertisements, and User shall bear all risks associated with the use of such content. The User is requested to peruse the policies posted by other websites regarding privacy and other topics before use. MHS Solutions disclaims any loss or damage of any sort that user may incur from dealing with any third party.\n
+    MHS Solutions shall have no responsibility for any damage to User's computer system or device, loss of data that results from the download of any content, materials and information from the app. Please read our Terms of Service carefully before using the app.\n
+    Digital Millennium Copyright Act (DMCA) Policy
+    MHS Solutions acts in accordance with The Digital Millennium Copyright Act of 1998 (the DMCA) and thus, respects the intellectual property rights of others. The act makes it possible for the copyright owners who believe that the material furnished by MHS Solutions infringes their right under the U.S. copyright law. It comes under our policy to respect and respond to such notices that duly conform with the requirements of DMCA.\n
+    If you believe that the material used by MHS Solutions infringes your copyright, you may send us a written notification, in accordance with DMCA, requesting to remove the material or block its access. On receiving the notice, MHS Solutions will take steps that it deems appropriate which also include removing the challenged material from its end. Please provide us with the information listed below in your written notice:
+    Identify the copyrighted material that you claim has been infringed. In case, multiple copyrighted materials are covered in a single notice, please provide a representative list of the challenged material.\n
+    Identify the specific location or provide us the URL, that contains the challenged material, or other sufficient information to help us locate the challenged material, so that we can comply with your request of removing or blocking its access.\n
+    Your name, address, email address, telephone number.\n
+    The electronic or physical signature of the person who claims to be the owner of the copyright. Your notice must include the following statements:
+    I hereby state that I have a good faith belief that the disputed use of the copyrighted material or reference or link to such material is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use).\n
+    I hereby state that the information in this Notice is accurate and, under penalty of perjury, that I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right under the copyright that is allegedly infringed.\n
+    You understand that your DMCA notice will not be considered valid if it fails to comply with any of the aforementioned requirement."/>
+
+</ScrollView>

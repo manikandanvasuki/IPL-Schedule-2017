@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        style="@style/linear_horizontal_alone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#F3E5F5"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+
+                <TextView
+                    android:id="@+id/players_price_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.4Cr"
+                    android:textStyle="bold"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="4dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/players_img"
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:src="@drawable/krunal_pandya" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/player_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Krunal Pandya"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/player_lefttext1"
+                            android:layout_width="165dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="Runs: 237"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/player_lefttext2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="Best: 86"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/player_lefttext3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="Strike Rate: 191 "
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/player_righttext1"
+                            android:layout_width="175dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="Wickets:6"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/player_righttext2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="Best: 2/15"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/player_righttext3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:text="Econ.: 7.57 "
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    style="@style/linear_vertical">
+
+
+    <LinearLayout
+        style="@style/linear_horizontal_alone">
+
+        <ImageView
+            android:id="@+id/left_image_view"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/mumbai_indians" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/matches_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="KKR Vs MI"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/match_date_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="19th April 2017"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/venue_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Eden Gardens, Kolkata"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/right_image_view"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/mumbai_indians" />
+    </LinearLayout>
+
+</LinearLayout>

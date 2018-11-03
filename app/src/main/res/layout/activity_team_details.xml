@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="mahisarashyu.iplschedule21century.TeamDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#e7e3e3">
+
+        <ImageView
+            android:id="@+id/details_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mi"
+            android:layout_margin="5dp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/admob_adview_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_header_secondpage" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/owner"
+                style="@style/headingStyle"
+                android:paddingLeft="8dp"
+                android:layout_alignParentLeft="true"
+                android:text="Owner"
+                android:textAllCaps="false"
+                android:layout_alignRight="@+id/owner_circle"
+                android:layout_alignEnd="@+id/owner_circle" />
+
+            <TextView
+                android:id="@+id/captain"
+                style="@style/headingStyle"
+                android:text="Captain"
+                android:textAllCaps="false"
+                android:layout_alignRight="@+id/captain_circle"
+                android:layout_alignEnd="@+id/captain_circle" />
+
+
+            <TextView
+                android:id="@+id/win"
+                style="@style/headingStyle"
+                android:paddingLeft="8dp"
+                android:layout_alignParentRight="true"
+                android:paddingRight="16dp"
+                android:text="Win%"
+                android:textAllCaps="false"
+                android:layout_alignLeft="@+id/win_circle"
+                android:layout_alignStart="@+id/win_circle" />
+
+            <TextView
+                android:id="@+id/owner_circle"
+                style="@style/circleStyle"
+                android:layout_below="@id/owner" />
+
+            <TextView
+                android:id="@+id/captain_circle"
+                style="@style/circleStyle"
+                android:layout_below="@+id/captain"
+                android:layout_centerHorizontal="true" />
+
+
+            <TextView
+                android:id="@+id/win_circle"
+                style="@style/circleStyle"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/win" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Facts and Figures"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/detailsHeading"
+            android:text="Highest Total" />
+
+        <TextView
+            android:id="@+id/highest_total"
+            style="@style/detailsContent"/>
+
+        <TextView
+            style="@style/detailsHeading"
+            android:text="Lowest Total" />
+
+        <TextView
+            android:id="@+id/lowest_total"
+            style="@style/detailsContent" />
+
+        <TextView
+            style="@style/detailsHeading"
+            android:text="Most Runs" />
+
+        <TextView
+            android:id="@+id/most_runs"
+            style="@style/detailsContent" />
+
+        <TextView
+            style="@style/detailsHeading"
+            android:text="Most Wickets" />
+
+        <TextView
+            android:id="@+id/most_wickets"
+            style="@style/detailsContent" />
+
+        <TextView
+            style="@style/detailsHeading"
+            android:text="Highest Total By Opponent" />
+
+        <TextView
+            android:id="@+id/highest_total_oppn"
+            style="@style/detailsContent" />
+
+        <TextView
+            style="@style/detailsHeading"
+            android:text="Lowest Total By Opponent" />
+
+        <TextView
+            android:id="@+id/lowest_total_oppn"
+            style="@style/detailsContent" />
+
+        <TextView
+            style="@style/detailsHeading"
+            android:text="Best Performance" />
+
+        <TextView
+            android:id="@+id/best_performance"
+            style="@style/detailsContent" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/admob_adview_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_footer_secondpage" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,2441 @@
+<resources>
+    <string name="app_name">IPL Schedule 21century</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- AdMob ad unit id -->
+    <string name="banner_footer_firstpage">ca-app-pub-9191365138707887/5423902059</string>
+    <string name="banner_header_secondpage">ca-app-pub-9191365138707887/9854101658</string>
+    <string name="banner_footer_secondpage">ca-app-pub-9191365138707887/2330834857</string>
+
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="MI">Mumbai Indians</string>
+    <string name="RCB">Royal Challengers Bangalore</string>
+    <string name="DD">Delhi Daredevils</string>
+    <string name="SRH">Sunrisers Hyderabad</string>
+    <string name="RPS">Rising Pune Supergiant</string>
+    <string name="GL">Gujarat Lions</string>
+    <string name="KKR">Kolkata Knight Riders</string>
+    <string name="KXIP">Kings XI Punjab</string>
+
+    <string name="mumbai_team">mumbai</string>
+    <string name="delhi_team">delhi</string>
+    <string name="pune_team">pune</string>
+    <string name="bangalore_team">bangalore</string>
+    <string name="gujarat_team">gujarat</string>
+    <string name="hyderabad_team">hyderabad</string>
+    <string name="kolkata_team">kolkata</string>
+    <string name="punjab_team">punjab</string>
+
+
+    <string-array name="match_date">
+        <item>05-Apr 2017	8:00 PM</item>
+        <item>06-Apr 2017	8:00 PM</item>
+        <item>07-Apr 2017	8:00 PM</item>
+        <item>08-Apr 2017	4:00 PM</item>
+        <item>08-Apr 2017	8:00 PM</item>
+        <item>09-Apr 2017	4:00 PM</item>
+        <item>09-Apr 2017	8:00 PM</item>
+        <item>10-Apr 2017	4:00 PM</item>
+        <item>11-Apr 2017	8:00 PM</item>
+        <item>12-Apr 2017	8:00 PM</item>
+        <item>13-Apr 2017	8:00 PM</item>
+        <item>14-Apr 2017	4:00 PM</item>
+        <item>14-Apr 2017	8:00 PM</item>
+        <item>15-Apr 2017	4:00 PM</item>
+        <item>15-Apr 2017	8:00 PM</item>
+        <item>16-Apr 2017	4:00 PM</item>
+        <item>16-Apr 2017	8:00 PM</item>
+        <item>17-Apr 2017	4:00 PM</item>
+        <item>17-Apr 2017	8:00 PM</item>
+        <item>18-Apr 2017	8:00 PM</item>
+        <item>19-Apr 2017	4:00 PM</item>
+        <item>20-Apr 2017	8:00 PM</item>
+        <item>21-Apr 2017	8:00 PM</item>
+        <item>22-Apr 2017	4:00 PM</item>
+        <item>22-Apr 2017	8:00 PM</item>
+        <item>23-Apr 2017	4:00 PM</item>
+        <item>23-Apr 2017	8:00 PM</item>
+        <item>24-Apr 2017	8:00 PM</item>
+        <item>25-Apr 2017	8:00 PM</item>
+        <item>26-Apr 2017	8:00 PM</item>
+        <item>27-Apr 2017	8:00 PM</item>
+        <item>28-Apr 2017	4:00 PM</item>
+        <item>28-Apr 2017	8:00 PM</item>
+        <item>29-Apr 2017	4:00 PM</item>
+        <item>29-Apr 2017	8:00 PM</item>
+        <item>30-Apr 2017	4:00 PM</item>
+        <item>30-Apr 2017	8:00 PM</item>
+        <item>01-May 2017	4:00 PM</item>
+        <item>01-May 2017	8:00 PM</item>
+        <item>02-May 2017	8:00 PM</item>
+        <item>03-May 2017	8:00 PM</item>
+        <item>04-May 2017	8:00 PM</item>
+        <item>05-May 2017	8:00 PM</item>
+        <item>06-May 2017	4:00 PM</item>
+        <item>06-May 2017	8:00 PM</item>
+        <item>07-May 2017	4:00 PM</item>
+        <item>07-May 2017	8:00 PM</item>
+        <item>08-May 2017	8:00 PM</item>
+        <item>09-May 2017	8:00 PM</item>
+        <item>10-May 2017	8:00 PM</item>
+        <item>11-May 2017	8:00 PM</item>
+        <item>12-May 2017	4:00 PM</item>
+        <item>13-May 2017	4:00 PM</item>
+        <item>13-May 2017	8:00 PM</item>
+        <item>14-May 2017	4:00 PM</item>
+        <item>14-May 2017	8:00 PM</item>
+        <item>16-May 2017	8:00 PM</item>
+        <item>17-May 2017	8:00 PM</item>
+        <item>19-May 2017	8:00 PM</item>
+        <item>21-May 2017	8:00 PM</item>
+    </string-array>
+
+    <string-array name="matches">
+        <item>SRH vs RCB</item>
+        <item>RPS vs MI</item>
+        <item>GL vs KKR</item>
+        <item>KXIP vs RPS</item>
+        <item>RCB vs DD</item>
+        <item>SRH vs GL</item>
+        <item>MI vs KKR</item>
+        <item>KXIP vs RCB</item>
+        <item>RPS vs DD</item>
+        <item>MI vs SRH</item>
+        <item>KKR vs KXIP</item>
+        <item>RCB vs MI</item>
+        <item>GL vs RPS</item>
+        <item>KKR vs SRH</item>
+        <item>DD vs KXIP</item>
+        <item>MI vs GL</item>
+        <item>RCB vs RPS</item>
+        <item>DD vs KKR</item>
+        <item>SRH vs KXIP</item>
+        <item>GL vs RCB</item>
+        <item>SRH vs DD</item>
+        <item>KXIP vs MI</item>
+        <item>KKR vs GL</item>
+        <item>RPS vs SRH</item>
+        <item>MI vs DD</item>
+        <item>GL vs KXIP</item>
+        <item>KKR vs RCB</item>
+        <item>MI vs RPS</item>
+        <item>RCB vs SRH</item>
+        <item>RPS vs KKR</item>
+        <item>RCB vs GL</item>
+        <item>KKR vs DD</item>
+        <item>KXIP vs SRH</item>
+        <item>RPS vs RCB</item>
+        <item>GL vs MI</item>
+        <item>KXIP vs DD</item>
+        <item>SRH vs KKR</item>
+        <item>MI vs RCB</item>
+        <item>RPS vs GL</item>
+        <item>DD vs SRH</item>
+        <item>KKR vs RPS</item>
+        <item>DD vs GL</item>
+        <item>RCB vs KXIP</item>
+        <item>SRH vs RPS</item>
+        <item>DD vs MI</item>
+        <item>RCB vs KKR</item>
+        <item>KXIP vs GL</item>
+        <item>SRH vs MI</item>
+        <item>KXIP vs KKR</item>
+        <item>GL vs DD</item>
+        <item>MI vs KXIP</item>
+        <item>DD vs RPS</item>
+        <item>GL vs SRH</item>
+        <item>KKR vs MI</item>
+        <item>RPS vs KXIP</item>
+        <item>DD vs RCB</item>
+        <item>TBD vs TBD</item>
+        <item>TBD vs TBD</item>
+        <item>TBD vs TBD</item>
+        <item>TBD vs TBD</item>
+
+    </string-array>
+
+    <string-array name="venue">
+        <item>Hyderabad</item>
+        <item>Pune</item>
+        <item>Rajkot</item>
+        <item>Indore</item>
+        <item>Bengaluru</item>
+        <item>Hyderabad</item>
+        <item>Mumbai</item>
+        <item>Indore</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+        <item>Bengaluru</item>
+        <item>Rajkot</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Bengaluru</item>
+        <item>Delhi</item>
+        <item>Hyderabad</item>
+        <item>Rajkot</item>
+        <item>Hyderabad</item>
+        <item>Indore</item>
+        <item>Kolkata</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Rajkot</item>
+        <item>Kolkata</item>
+        <item>Mumbai</item>
+        <item>Bengaluru</item>
+        <item>Pune</item>
+        <item>Bengaluru</item>
+        <item>Kolkata</item>
+        <item>Mohali</item>
+        <item>Pune</item>
+        <item>Rajkot</item>
+        <item>Mohali</item>
+        <item>Hyderabad</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Delhi</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Bengaluru</item>
+        <item>Hyderabad</item>
+        <item>Delhi</item>
+        <item>Bengaluru</item>
+        <item>Mohali</item>
+        <item>Hyderabad</item>
+        <item>Mohali</item>
+        <item>Kanpur</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Kanpur</item>
+        <item>Kolkata</item>
+        <item>Pune</item>
+        <item>Delhi</item>
+        <item>Qualifier 1, TBD</item>
+        <item>Eliminator, TBD</item>
+        <item>Qualifier 2, TBD</item>
+        <item>Final, Hyderabad</item>
+
+    </string-array>
+    <string name="title_activity_exact_team">exactTeam</string>
+    <string name="title_activity_player">playerActivity</string>
+
+    #### Batsmen 0-6, WK 7-10, All 11-17, Bowl 18-26, Coach 27-31
+
+    <string-array name="mumbaiAll">
+        <item>Rohit Sharma ©</item>
+        <item>Ambati Rayudu</item>
+        <item>Lendl Simmons ✈ </item>
+        <item>Asele Gunaratne ✈ </item>
+        <item>Siddesh Lad</item>
+        <item>Nitesh Rana</item>
+        <item>Saurabh Tiwary</item>
+        <item>Jos buttler ✈️</item>
+        <item>Parthiv Patel</item>
+        <item>Jitesh Sharma</item>
+        <item>Nicholas Pooran ✈️</item>
+        <item>Kieron Pollard ✈ </item>
+        <item>Hardik Pandya</item>
+        <item>Krishnappa Gowtham</item>
+        <item>Krunal Pandya</item>
+        <item>Shreyas Gopal</item>
+        <item>Karan Sharma</item>
+        <item>Jagadish Suchith</item>
+        <item>Lasith Malinga ✈️</item>
+        <item>Harbajan Singh</item>
+        <item>Jasprit Bumrah</item>
+        <item>Tim Southee ✈️</item>
+        <item>Mitch McClenaghan ✈️</item>
+        <item>Mitchell Johnson ✈️</item>
+        <item>Vinay Kumar</item>
+        <item>Kulwant Khejroliya</item>
+        <item>Deepak Punia</item>
+        <item>Sachin Tendulkar</item>
+        <item>Mahela Jayawardene</item>
+        <item>Shane Bond</item>
+        <item>Robin Singh</item>
+        <item>Johnty Rhodes</item>
+    </string-array>
+
+
+    <string-array name="mumbaiPrice">
+        <item>₹11.5cr</item>
+        <item>₹6Cr</item>
+        <item>₹5.5Cr</item>
+        <item>₹30L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹30L</item>
+        <item>₹3.8Cr</item>
+        <item>₹1.4Cr</item>
+        <item>₹10L</item>
+        <item>₹30L</item>
+        <item>₹9.7Cr</item>
+        <item>₹10L</item>
+        <item>₹2Cr</item>
+        <item>₹2Cr</item>
+        <item>₹10L</item>
+        <item>₹3.2Cr</item>
+        <item>₹10L</item>
+        <item>₹8.1Cr</item>
+        <item>₹8Cr</item>
+        <item>₹1.2Cr</item>
+        <item>₹2.5Cr</item>
+        <item>₹30L</item>
+        <item>₹2Cr</item>
+        <item>₹2.8Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>Mentor</item>
+        <item>Head Coach</item>
+        <item>Bowling Coach</item>
+        <item>Batting Coach</item>
+        <item>Fielding Coach</item>
+    </string-array>
+
+    <string-array name="mumbaiRuns">
+        <item>3874</item>
+        <item>2325</item>
+        <item>942</item>
+        <item>-</item>
+        <item>-</item>
+        <item>104</item>
+        <item>1224</item>
+        <item>255</item>
+        <item>1927</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1960</item>
+        <item>156</item>
+        <item>-</item>
+        <item>237</item>
+        <item>14</item>
+        <item>268</item>
+        <item>48</item>
+        <item>81</item>
+        <item>782</item>
+        <item>9</item>
+        <item>47</item>
+        <item>47</item>
+        <item>131</item>
+        <item>304</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2334</item>
+        <item>1802</item>
+        <item>1</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="mumbaiWickets">
+        <item>15</item>
+        <item>-</item>
+        <item>1</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>56</item>
+        <item>4</item>
+        <item>-</item>
+        <item>6</item>
+        <item>7</item>
+        <item>36</item>
+        <item>10</item>
+        <item>143</item>
+        <item>119</item>
+        <item>26</item>
+        <item>19</item>
+        <item>35</item>
+        <item>52</item>
+        <item>101</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>9</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="mumbaiHighestScore">
+        <item>109</item>
+        <item>81</item>
+        <item>100</item>
+        <item>-</item>
+        <item>-</item>
+        <item>70</item>
+        <item>61</item>
+        <item>41</item>
+        <item>81</item>
+        <item>-</item>
+        <item>-</item>
+        <item>78</item>
+        <item>61</item>
+        <item>-</item>
+        <item>86</item>
+        <item>11</item>
+        <item>39</item>
+        <item>34</item>
+        <item>17</item>
+        <item>64</item>
+        <item>6</item>
+        <item>25</item>
+        <item>20</item>
+        <item>16</item>
+        <item>26</item>
+        <item>-</item>
+        <item>-</item>
+        <item>100</item>
+        <item>110</item>
+        <item>1</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="mumbaiStrikeRate">
+        <item>131.72</item>
+        <item>126.56</item>
+        <item>127.29</item>
+        <item>-</item>
+        <item>-</item>
+        <item>138.66</item>
+        <item>119.53</item>
+        <item>138.59</item>
+        <item>114.16</item>
+        <item>-</item>
+        <item>-</item>
+        <item>148.15</item>
+        <item>124.8</item>
+        <item>-</item>
+        <item>191.13</item>
+        <item>51.85</item>
+        <item>115.02</item>
+        <item>150</item>
+        <item>84.38</item>
+        <item>143.49</item>
+        <item>64.29</item>
+        <item>146.88</item>
+        <item>162.07</item>
+        <item>96.32</item>
+        <item>112.18</item>
+        <item>-</item>
+        <item>-</item>
+        <item>119.82</item>
+        <item>123.26</item>
+        <item>50.0</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="mumbaiEconomy">
+        <item>7.95</item>
+        <item>-</item>
+        <item>11.33</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>8.79</item>
+        <item>9.77</item>
+        <item>-</item>
+        <item>7.57</item>
+        <item>8.03</item>
+        <item>7.83</item>
+        <item>8.98</item>
+        <item>6.67</item>
+        <item>7</item>
+        <item>8.45</item>
+        <item>8.18</item>
+        <item>8.19</item>
+        <item>8.19</item>
+        <item>8.28</item>
+        <item>-</item>
+        <item>-</item>
+        <item>9.67</item>
+        <item>-</item>
+        <item>7.23</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="mumbaiBestBowl">
+        <item>4/6</item>
+        <item>-</item>
+        <item>1/34</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4/44</item>
+        <item>1/7</item>
+        <item>-</item>
+        <item>2/15</item>
+        <item>2/25</item>
+        <item>4/38</item>
+        <item>2/14</item>
+        <item>5/13</item>
+        <item>5/18</item>
+        <item>3/13</item>
+        <item>3/24</item>
+        <item>4/21</item>
+        <item>3/27</item>
+        <item>4/40</item>
+        <item>-</item>
+        <item>-</item>
+        <item>0/7</item>
+        <item>-</item>
+        <item>2/24</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    ##### Pune Batsmen 0-5 Wicketkeeper 6-8 All rounder 9-14 Bowler 15-26 Coach 27-29
+
+    <string-array name="puneAll">
+        <item>Steve Smith © ✈️</item>
+        <item>Ajinkya Rahane</item>
+        <item>Faf Du Plessis ✈️</item>
+        <item>Usman Khawaja ✈️</item>
+        <item>Mayank Aggarwal</item>
+        <item>Manoj Tiwary</item>
+        <item>MS Dhoni</item>
+        <item>Milind Tandon</item>
+        <item>Ankush Bains</item>
+        <item>Rajat Bhatia</item>
+        <item>Ben Stokes ✈️</item>
+        <item>Dan Christian ✈️</item>
+        <item>Ankit Sharma</item>
+        <item>Baba Aparajith</item>
+        <item>Rahul Tripathi</item>
+        <item>Imran Tahir ✈️</item>
+        <item>Ravichandra Ashwin</item>
+        <item>Ashok Dinda</item>
+        <item>Ishwar Pandey</item>
+        <item>Adam Zampa ✈️</item>
+        <item>Jaskaran Singh</item>
+        <item>Deepak Chahar</item>
+        <item>Jaydev Unadkat</item>
+        <item>Rahul Chahar</item>
+        <item>Saurabh Kumar</item>
+        <item>Shardul Thakur</item>
+        <item>Lockie Ferguson ✈️</item>
+        <item>Stephen Fleming</item>
+        <item>Eric Simons</item>
+        <item>Hrishikesh Kanitkar</item>
+    </string-array>
+
+
+    <string-array name="punePrice">
+        <item>₹5.5Cr</item>
+        <item>₹9.5Cr</item>
+        <item>₹4Cr</item>
+        <item>₹1Cr</item>
+        <item>₹Traded</item>
+        <item>₹50L</item>
+        <item>₹12.5Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹60L</item>
+        <item>₹14.5Cr</item>
+        <item>₹1Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>Replacement Signing</item>
+        <item>₹7.5Cr</item>
+        <item>₹50L</item>
+        <item>₹20L</item>
+        <item>₹30L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹30L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹20L</item>
+        <item>₹50L</item>
+        <item>Head Coach</item>
+        <item>Bowling Coach</item>
+        <item>Batting Coach</item>
+    </string-array>
+
+    <string-array name="puneRuns">
+        <item>1231</item>
+        <item>2675</item>
+        <item>1287</item>
+        <item>127</item>
+        <item>792</item>
+        <item>1324</item>
+        <item>3272</item>
+        <item>-</item>
+        <item>-</item>
+        <item>326</item>
+        <item>-</item>
+        <item>341</item>
+        <item>62</item>
+        <item>-</item>
+        <item>-</item>
+        <item>18</item>
+        <item>231</item>
+        <item>19</item>
+        <item>-</item>
+        <item>-</item>
+        <item>8</item>
+        <item>-</item>
+        <item>3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7</item>
+        <item>-</item>
+        <item>196</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="puneHighestScore">
+        <item>101</item>
+        <item>103</item>
+        <item>73</item>
+        <item>30</item>
+        <item>68</item>
+        <item>75</item>
+        <item>70</item>
+        <item>-</item>
+        <item>-</item>
+        <item>26</item>
+        <item>-</item>
+        <item>39</item>
+        <item>30</item>
+        <item>-</item>
+        <item>-</item>
+        <item>5</item>
+        <item>29</item>
+        <item>6</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4</item>
+        <item>-</item>
+        <item>1</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7</item>
+        <item>-</item>
+        <item>45</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="puneStrikeRate">
+        <item>135.87</item>
+        <item>120.93</item>
+        <item>128.06</item>
+        <item>127</item>
+        <item>125.12</item>
+        <item>113.26</item>
+        <item>139</item>
+        <item>-</item>
+        <item>-</item>
+        <item>122.1</item>
+        <item>-</item>
+        <item>116.78</item>
+        <item>119.23</item>
+        <item>-</item>
+        <item>-</item>
+        <item>78.26</item>
+        <item>96.25</item>
+        <item>46</item>
+        <item>-</item>
+        <item>-</item>
+        <item>72.73</item>
+        <item>-</item>
+        <item>31.5</item>
+        <item>-</item>
+        <item>-</item>
+        <item>116.67</item>
+        <item>-</item>
+        <item>118.79</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="puneWickets">
+        <item>-</item>
+        <item>1</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>69</item>
+        <item>-</item>
+        <item>19</item>
+        <item>12</item>
+        <item>-</item>
+        <item>-</item>
+        <item>29</item>
+        <item>100</item>
+        <item>68</item>
+        <item>18</item>
+        <item>12</item>
+        <item>6</item>
+        <item>0</item>
+        <item>32</item>
+        <item>-</item>
+        <item>-</item>
+        <item>38</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="puneBestBowl">
+        <item>0/5</item>
+        <item>1/5</item>
+        <item>0/16</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1/11</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4/15</item>
+        <item>-</item>
+        <item>2/13</item>
+        <item>2/20</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4/28</item>
+        <item>4/34</item>
+        <item>4/18</item>
+        <item>2/32</item>
+        <item>6/19</item>
+        <item>2/18</item>
+        <item>0/13</item>
+        <item>5/25</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1/38</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="puneEconomy">
+        <item>-</item>
+        <item>5</item>
+        <item>16</item>
+        <item>-</item>
+        <item>-</item>
+        <item>12.17</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.4</item>
+        <item>-</item>
+        <item>8.11</item>
+        <item>7.15</item>
+        <item>-</item>
+        <item>-</item>
+        <item>8.61</item>
+        <item>6.54</item>
+        <item>8.05</item>
+        <item>7.68</item>
+        <item>6.76</item>
+        <item>10.06</item>
+        <item>8.2</item>
+        <item>8.41</item>
+        <item>-</item>
+        <item>-</item>
+        <item>12.67</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    ##### kolkata Batsmen 0-6 Wicketkeeper 7-8 All rounder 9-14 Bowler 15-22 Coach 23-26
+
+    <string-array name="kolkataAll">
+        <item>Gautam Gambhir ©</item>
+        <item>Manish Pandey</item>
+        <item>Chris Lynn ✈</item>
+        <item>Suryakumar Yadav</item>
+        <item>Darren Bravo ✈</item>
+        <item>Rovman Powell ✈</item>
+        <item>Ishank Jaggi</item>
+        <item>Robin Uthappa</item>
+        <item>Sheldon Jackson</item>
+        <item>Andre Russell ✈</item>
+        <item>Yusuf Pathan</item>
+        <item>Shakib Al Hasan ✈</item>
+        <item>Chris Woakes ✈</item>
+        <item>Rishi Dhawan</item>
+        <item>Nathan Coulter-Nile ✈</item>
+        <item>Ankit Rajpoot</item>
+        <item>Kuldeep Yadav</item>
+        <item>Umesh Yadav</item>
+        <item>Piyush Chawla</item>
+        <item>Sunil Narine ✈</item>
+        <item>Trent Boult ✈</item>
+        <item>Sayan Ghosh</item>
+        <item>R. Sanjay Yadav</item>
+        <item>Jacques Kallis</item>
+        <item>Lakshmipathy Balaji</item>
+        <item>Simon Katich</item>
+        <item>Mark Boucher</item>
+    </string-array>
+
+
+    <string-array name="kolkataPrice">
+        <item>₹10Cr</item>
+        <item>₹1.7Cr</item>
+        <item>₹1.3Cr</item>
+        <item>₹70L</item>
+        <item>₹50L</item>
+        <item>₹30L</item>
+        <item>₹10L</item>
+        <item>₹5Cr</item>
+        <item>₹15L</item>
+        <item>₹60L</item>
+        <item>₹3.2Cr</item>
+        <item>₹2.8Cr</item>
+        <item>₹4.2Cr</item>
+        <item>₹55L</item>
+        <item>₹3.5Cr</item>
+        <item>₹1.5Cr</item>
+        <item>₹40L</item>
+        <item>₹2.6Cr</item>
+        <item>₹4.25Cr</item>
+        <item>₹8Cr</item>
+        <item>₹5Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>Head Coach</item>
+        <item>Bowling Coach</item>
+        <item>Assistant Coach</item>
+        <item>Fielding Coach</item>
+    </string-array>
+
+    <string-array name="kolkataRuns">
+        <item>3635</item>
+        <item>1819</item>
+        <item>89</item>
+        <item>503</item>
+        <item>-</item>
+        <item>-</item>
+        <item>43</item>
+        <item>3390</item>
+        <item>-</item>
+        <item>578</item>
+        <item>2761</item>
+        <item>497</item>
+        <item>-</item>
+        <item>153</item>
+        <item>38</item>
+        <item>2</item>
+        <item>-</item>
+        <item>84</item>
+        <item>513</item>
+        <item>47</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2427</item>
+        <item>36</item>
+        <item>241</item>
+        <item>394</item>
+    </string-array>
+
+
+    <string-array name="kolkataHighestScore">
+        <item>93</item>
+        <item>114</item>
+        <item>45</item>
+        <item>60</item>
+        <item>-</item>
+        <item>-</item>
+        <item>24</item>
+        <item>83</item>
+        <item>-</item>
+        <item>66</item>
+        <item>100</item>
+        <item>66</item>
+        <item>-</item>
+        <item>25</item>
+        <item>9</item>
+        <item>2</item>
+        <item>-</item>
+        <item>24</item>
+        <item>24</item>
+        <item>13</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>89</item>
+        <item>15</item>
+        <item>75</item>
+        <item>50</item>
+    </string-array>
+
+
+    <string-array name="kolkataStrikeRate">
+        <item>124.9</item>
+        <item>118.42</item>
+        <item>111.25</item>
+        <item>133.42</item>
+        <item>-</item>
+        <item>-</item>
+        <item>74.14</item>
+        <item>128.65</item>
+        <item>-</item>
+        <item>174.62</item>
+        <item>146.78</item>
+        <item>130.45</item>
+        <item>-</item>
+        <item>113.33</item>
+        <item>100</item>
+        <item>33.33</item>
+        <item>-</item>
+        <item>109.09</item>
+        <item>114.77</item>
+        <item>87.04</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>109.23</item>
+        <item>73.47</item>
+        <item>129.57</item>
+        <item>127.51</item>
+    </string-array>
+
+    <string-array name="kolkataWickets">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>31</item>
+        <item>40</item>
+        <item>43</item>
+        <item>-</item>
+        <item>18</item>
+        <item>21</item>
+        <item>4</item>
+        <item>6</item>
+        <item>74</item>
+        <item>120</item>
+        <item>85</item>
+        <item>10</item>
+        <item>-</item>
+        <item>-</item>
+        <item>65</item>
+        <item>76</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="kolkataBestBowl">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4/20</item>
+        <item>3/20</item>
+        <item>3/17</item>
+        <item>-</item>
+        <item>2/14</item>
+        <item>4/20</item>
+        <item>1/14</item>
+        <item>3/35</item>
+        <item>4/24</item>
+        <item>4/17</item>
+        <item>5/19</item>
+        <item>3/19</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3/13</item>
+        <item>5/24</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="kolkataEconomy">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>8.52</item>
+        <item>7.34</item>
+        <item>7.11</item>
+        <item>-</item>
+        <item>7.87</item>
+        <item>7.5</item>
+        <item>8.87</item>
+        <item>8.33</item>
+        <item>8.39</item>
+        <item>7.57</item>
+        <item>6.18</item>
+        <item>8.59</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.9</item>
+        <item>8.05</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    ##### punjab Batsmen 0-9 Wicketkeeper 10-11 All rounder 12-16 Bowler 17-25 Coach 26-29
+
+    <string-array name="punjabAll">
+        <item>Murali Vijay</item>
+        <item>Shaun Marsh ✈</item>
+        <item>David Miller ✈</item>
+        <item>Hashim Amla ✈</item>
+        <item>Gurkeerat Singh</item>
+        <item>Manan Vohra</item>
+        <item>Armaan Jaffer</item>
+        <item>Rinku Singh</item>
+        <item>Eoin Morgan ✈</item>
+        <item>Martin Guptil ✈</item>
+        <item>Wriddhiman Saha</item>
+        <item>Nikhil Naik</item>
+        <item>Glenn Maxwell © ✈</item>
+        <item>Marcus Stoinis ✈</item>
+        <item>Axar Patel</item>
+        <item>Rahul Tewatia</item>
+        <item>Darren Sammy ✈</item>
+        <item>Anureet Singh</item>
+        <item>Swapnil Singh</item>
+        <item>Mohit Sharma</item>
+        <item>Pardeep Sahu</item>
+        <item>Sandeep Sharma</item>
+        <item>KC Cariappa</item>
+        <item>T Natarajan</item>
+        <item>Varun Aron</item>
+        <item>Matt Henry ✈</item>
+        <item>Virender Sehwag</item>
+        <item>J Arun Kumar</item>
+        <item>Mithun Manhas</item>
+        <item>R Sridhar</item>
+    </string-array>
+
+
+    <string-array name="punjabPrice">
+        <item>₹3Cr</item>
+        <item>₹2.2Cr</item>
+        <item>₹5Cr</item>
+        <item>₹1Cr</item>
+        <item>₹1.3Cr</item>
+        <item>₹35L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹2Cr</item>
+        <item>₹50L</item>
+        <item>₹2.2Cr</item>
+        <item>₹30L</item>
+        <item>₹55L</item>
+        <item>₹75L</item>
+        <item>₹6Cr</item>
+        <item>₹25L</item>
+        <item>₹30L</item>
+        <item>₹20L</item>
+        <item>₹10L</item>
+        <item>₹6.5Cr</item>
+        <item>₹10L</item>
+        <item>₹85L</item>
+        <item>₹80L</item>
+        <item>₹3Cr</item>
+        <item>₹2.8cr</item>
+        <item>₹50L</item>
+        <item>Mentor</item>
+        <item>Batting Coach</item>
+        <item>Assistant Coach</item>
+        <item>Fielding Coach</item>
+    </string-array>
+
+    <string-array name="punjabRuns">
+        <item>2511</item>
+        <item>2213</item>
+        <item>1480</item>
+        <item>157</item>
+        <item>342</item>
+        <item>728</item>
+        <item>-</item>
+        <item>-</item>
+        <item>793</item>
+        <item>57</item>
+        <item>1323</item>
+        <item>23</item>
+        <item>918</item>
+        <item>146</item>
+        <item>379</item>
+        <item>16</item>
+        <item>295</item>
+        <item>18</item>
+        <item>-</item>
+        <item>61</item>
+        <item>19</item>
+        <item>19</item>
+        <item>13</item>
+        <item>-</item>
+        <item>42</item>
+        <item>-</item>
+        <item>2728</item>
+        <item>-</item>
+        <item>514</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="punjabHighestScore">
+        <item>127</item>
+        <item>115</item>
+        <item>101</item>
+        <item>96</item>
+        <item>51</item>
+        <item>67</item>
+        <item>-</item>
+        <item>-</item>
+        <item>66</item>
+        <item>48</item>
+        <item>115</item>
+        <item>22</item>
+        <item>95</item>
+        <item>52</item>
+        <item>42</item>
+        <item>16</item>
+        <item>60</item>
+        <item>10</item>
+        <item>-</item>
+        <item>21</item>
+        <item>18</item>
+        <item>7</item>
+        <item>12</item>
+        <item>-</item>
+        <item>17</item>
+        <item>-</item>
+        <item>122</item>
+        <item>-</item>
+        <item>42</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="punjabStrikeRate">
+        <item>123.39</item>
+        <item>132.26</item>
+        <item>144.39</item>
+        <item>131.93</item>
+        <item>125.74</item>
+        <item>129.74</item>
+        <item>-</item>
+        <item>-</item>
+        <item>123.33</item>
+        <item>103.64</item>
+        <item>131.77</item>
+        <item>74.19</item>
+        <item>161.62</item>
+        <item>135.19</item>
+        <item>121.86</item>
+        <item>123.08</item>
+        <item>122.41</item>
+        <item>58.06</item>
+        <item>-</item>
+        <item>117.31</item>
+        <item>146.15</item>
+        <item>65.52</item>
+        <item>118.18</item>
+        <item>-</item>
+        <item>93.33</item>
+        <item>-</item>
+        <item>155.44</item>
+        <item>-</item>
+        <item>109.36</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="punjabWickets">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>5</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4</item>
+        <item>8</item>
+        <item>43</item>
+        <item>3</item>
+        <item>11</item>
+        <item>17</item>
+        <item>-</item>
+        <item>70</item>
+        <item>3</item>
+        <item>54</item>
+        <item>4</item>
+        <item>-</item>
+        <item>31</item>
+        <item>-</item>
+        <item>6</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="punjabBestBowl">
+        <item>0/8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2/15</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1/5</item>
+        <item>4/15</item>
+        <item>4/21</item>
+        <item>1/17</item>
+        <item>4/24</item>
+        <item>3/23</item>
+        <item>0/29</item>
+        <item>4/14</item>
+        <item>2/18</item>
+        <item>4/25</item>
+        <item>2/16</item>
+        <item>-</item>
+        <item>3/16</item>
+        <item>-</item>
+        <item>2/18</item>
+        <item>-</item>
+        <item>0/9</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="punjabEconomy">
+        <item>8.17</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.46</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>10.11</item>
+        <item>8.43</item>
+        <item>7.38</item>
+        <item>7.5</item>
+        <item>8.9</item>
+        <item>8.86</item>
+        <item>9.67</item>
+        <item>7.93</item>
+        <item>8.34</item>
+        <item>7.61</item>
+        <item>9.84</item>
+        <item>-</item>
+        <item>8.75</item>
+        <item>-</item>
+        <item>10.37</item>
+        <item>-</item>
+        <item>6</item>
+        <item>-</item>
+    </string-array>
+
+
+    ##### bangalore Batsmen 0-6 Wicketkeeper 7-8 All rounder 9-12 Bowler 13-23 Coach 24-27
+
+    <string-array name="bangaloreAll">
+        <item>Virat Kohli ©</item>
+        <item>AB de Villiers ✈️</item>
+        <item>Chris Gayle ✈️</item>
+        <item>Sarfaraz  Khan</item>
+        <item>Sachin Baby</item>
+        <item>Mandeep Singh</item>
+        <item>Travis Head ✈️</item>
+        <item>Kedar Jadhav</item>
+        <item>KL Rahul</item>
+        <item>Shane Watson ✈️</item>
+        <item>Stuart Binny</item>
+        <item>Pawan Negi</item>
+        <item>Praveen Dubey</item>
+        <item>Yuzvendra Singh Chahal</item>
+        <item>Harshal Patel</item>
+        <item>Adam Milne ✈️</item>
+        <item>Sreenath Arvind</item>
+        <item>Samuel Badree ✈️</item>
+        <item>Iqbal Abdullah</item>
+        <item>Tabraiz Shamsi ✈️</item>
+        <item>Tymal Mills ✈️</item>
+        <item>Aniket Choudhary</item>
+        <item>Billy Stanlake ✈️</item>
+        <item>Avesh Khan</item>
+        <item>Daniel Vettori</item>
+        <item>Allan Donald</item>
+        <item>Trent Woodhill</item>
+        <item>Bharat Arun</item>
+    </string-array>
+
+
+    <string-array name="bangalorePrice">
+        <item>₹15Cr</item>
+        <item>₹9.5Cr</item>
+        <item>₹7.5Cr</item>
+        <item>₹50L</item>
+        <item>₹10L</item>
+        <item>₹80L</item>
+        <item>₹50L</item>
+        <item>₹2.2Cr</item>
+        <item>₹1Cr</item>
+        <item>₹9.5Cr</item>
+        <item>₹2Cr</item>
+        <item>₹1Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹40L</item>
+        <item>₹70L</item>
+        <item>₹10L</item>
+        <item>₹50L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹12Cr</item>
+        <item>₹2Cr</item>
+        <item>₹30L</item>
+        <item>₹50L</item>
+        <item>Head Coach</item>
+        <item>Bowling Coach</item>
+        <item>Batting Coach</item>
+        <item>Assistant Coach</item>
+    </string-array>
+
+    <string-array name="bangaloreRuns">
+        <item>4110</item>
+        <item>3256</item>
+        <item>3426</item>
+        <item>177</item>
+        <item>122</item>
+        <item>924</item>
+        <item>54</item>
+        <item>626</item>
+        <item>725</item>
+        <item>2551</item>
+        <item>688</item>
+        <item>209</item>
+        <item>-</item>
+        <item>2</item>
+        <item>47</item>
+        <item>-</item>
+        <item>24</item>
+        <item>-</item>
+        <item>83</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>121</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="bangaloreHighestScore">
+        <item>113</item>
+        <item>133</item>
+        <item>175</item>
+        <item>45</item>
+        <item>33</item>
+        <item>77</item>
+        <item>37</item>
+        <item>63</item>
+        <item>68</item>
+        <item>104</item>
+        <item>48</item>
+        <item>36</item>
+        <item>-</item>
+        <item>1</item>
+        <item>10</item>
+        <item>-</item>
+        <item>14</item>
+        <item>-</item>
+        <item>33</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>29</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="bangaloreStrikeRate">
+        <item>130.43</item>
+        <item>149.22</item>
+        <item>153.36</item>
+        <item>173.53</item>
+        <item>141.86</item>
+        <item>124.36</item>
+        <item>135</item>
+        <item>131.51</item>
+        <item>125.65</item>
+        <item>140.71</item>
+        <item>130.3</item>
+        <item>129.81</item>
+        <item>-</item>
+        <item>100</item>
+        <item>138.24</item>
+        <item>-</item>
+        <item>158.82</item>
+        <item>-</item>
+        <item>107.79</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>107.08</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="bangaloreWickets">
+        <item>4</item>
+        <item>-</item>
+        <item>18</item>
+        <item>-</item>
+        <item>2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>81</item>
+        <item>17</item>
+        <item>14</item>
+        <item>-</item>
+        <item>56</item>
+        <item>31</item>
+        <item>1</item>
+        <item>40</item>
+        <item>2</item>
+        <item>38</item>
+        <item>3</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>28</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="bangaloreBestBowl">
+        <item>2/25</item>
+        <item>-</item>
+        <item>3/21</item>
+        <item>-</item>
+        <item>2/4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4/29</item>
+        <item>2/14</item>
+        <item>4/18</item>
+        <item>-</item>
+        <item>4/25</item>
+        <item>2/12</item>
+        <item>1/43</item>
+        <item>4/14</item>
+        <item>1/19</item>
+        <item>3/24</item>
+        <item>1/21</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3/15</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="bangaloreEconomy">
+        <item>8.8</item>
+        <item>-</item>
+        <item>7.91</item>
+        <item>-</item>
+        <item>4.8</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.72</item>
+        <item>7.51</item>
+        <item>8.21</item>
+        <item>-</item>
+        <item>7.97</item>
+        <item>8.45</item>
+        <item>10.75</item>
+        <item>7.94</item>
+        <item>7.28</item>
+        <item>7.11</item>
+        <item>9.19</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>6.79</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    ##### Gujrat Batsmen 0-7 Wicketkeeper 13-14 All rounder 8-12 Bowler 15-26 Coach 27-31
+    <string-array name="gujaratRuns">
+        <item>4098</item>
+        <item>1304</item>
+        <item>2434</item>
+        <item>-</item>
+        <item>-</item>
+        <item>20</item>
+        <item>-</item>
+        <item>-</item>
+        <item>1574</item>
+        <item>473</item>
+        <item>1262</item>
+        <item>1864</item>
+        <item>-</item>
+        <item>2542</item>
+        <item>42</item>
+        <item>336</item>
+        <item>22</item>
+        <item>28</item>
+        <item>0</item>
+        <item>-</item>
+        <item>85</item>
+        <item>99</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>39</item>
+        <item>1400</item>
+        <item>259</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="gujaratWickets">
+        <item>24</item>
+        <item>1</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>-</item>
+        <item>77</item>
+        <item>53</item>
+        <item>122</item>
+        <item>17</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>84</item>
+        <item>30</item>
+        <item>47</item>
+        <item>6</item>
+        <item>-</item>
+        <item>73</item>
+        <item>37</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>73</item>
+        <item>17</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="gujaratHighestScore">
+        <item>100*</item>
+        <item>88*</item>
+        <item>158*</item>
+        <item>-</item>
+        <item>-</item>
+        <item>12</item>
+        <item>-</item>
+        <item>-</item>
+        <item>48</item>
+        <item>46</item>
+        <item>70*</item>
+        <item>87*</item>
+        <item>-</item>
+        <item>86</item>
+        <item>27</item>
+        <item>34</item>
+        <item>6*</item>
+        <item>13</item>
+        <item>0*</item>
+        <item>-</item>
+        <item>28*</item>
+        <item>42</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>23</item>
+        <item>73</item>
+        <item>34</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="gujaratStrikeRate">
+        <item>138.58</item>
+        <item>124.3</item>
+        <item>129.39</item>
+        <item>-</item>
+        <item>-</item>
+        <item>74.07</item>
+        <item>-</item>
+        <item>-</item>
+        <item>121.35</item>
+        <item>142.46</item>
+        <item>126.32</item>
+        <item>132.1</item>
+        <item>-</item>
+        <item>124.24</item>
+        <item>102.43</item>
+        <item>109.8</item>
+        <item>70.96</item>
+        <item>96.55</item>
+        <item>0</item>
+        <item>-</item>
+        <item>91.39</item>
+        <item>139.43</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>97.5</item>
+        <item>125.34</item>
+        <item>103.6</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="gujaratEconomy">
+        <item>7.3</item>
+        <item>9.34</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.62</item>
+        <item>8.53</item>
+        <item>8.18</item>
+        <item>8.72</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>7.67</item>
+        <item>8.57</item>
+        <item>7.95</item>
+        <item>8.34</item>
+        <item>-</item>
+        <item>7.86</item>
+        <item>8.59</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.5</item>
+        <item>7.77</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="gujaratBestBowl">
+        <item>2/0</item>
+        <item>1/11</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>-</item>
+        <item>5/16</item>
+        <item>5/16</item>
+        <item>4/22</item>
+        <item>4/8</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>3/18</item>
+        <item>3/18</item>
+        <item>4/22</item>
+        <item>3/20</item>
+        <item>-</item>
+        <item>4/14</item>
+        <item>3/31</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>5/21</item>
+        <item>4/13</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="gujaratPrice">
+        <item>₹12.5Cr</item>
+        <item>₹1Cr</item>
+        <item>₹5.5Cr</item>
+        <item>₹20L</item>
+        <item>₹1Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹9.5Cr</item>
+        <item>₹7.5Cr</item>
+        <item>₹4Cr</item>
+        <item>₹2.3Cr</item>
+        <item>₹10L</item>
+        <item>₹2.3Cr</item>
+        <item>₹35L</item>
+        <item>₹3.5Cr</item>
+        <item>₹20L</item>
+        <item>₹20L</item>
+        <item>₹10L</item>
+        <item>₹50L</item>
+        <item>₹2Cr</item>
+        <item>₹60L</item>
+        <item>₹50L</item>
+        <item>₹85L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹30L</item>
+        <item>Head Coach</item>
+        <item>Assistant Coach</item>
+        <item>Bowling Coach</item>
+        <item>Performance Analyst</item>
+        <item>Physiotherapist</item>
+    </string-array>
+
+
+    <string-array name="gujaratAll">
+        <item>Suresh Raina ©</item>
+        <item>Aaron Finch ✈</item>
+        <item>Brendon Mccullum ✈ </item>
+        <item>Jaydev Shah</item>
+        <item>Jason Roy  ✈</item>
+        <item>Akshdeep Nath</item>
+        <item>Chirag Suri ✈</item>
+        <item>Pratham Singh </item>
+        <item>Ravindra Jadeja</item>
+        <item>James Faulkner ✈</item>
+        <item>Dwayne Bravo ✈</item>
+        <item>Dwayne Smith ✈</item>
+        <item>Shubham Agrawal</item>
+        <item>Dinesh Karthick</item>
+        <item>Ishan Kishan</item>
+        <item>Praveen Kumar</item>
+        <item>Pradeep Sangwan</item>
+        <item>Shadab Jakati</item>
+        <item>Shivil Kaushik</item>
+        <item>Andrew Tye ✈</item>
+        <item>Dhawal Kulkarni</item>
+        <item>Manpreet Gony</item>
+        <item>Nathu Singh</item>
+        <item>Basil Thampi</item>
+        <item>Shelley Shaurya</item>
+        <item>Tejas Baroka</item>
+        <item>Munaf Patel</item>
+        <item>Brad Hodge</item>
+        <item>Mohammad Kaif</item>
+        <item>Heath Streak</item>
+        <item>Lakshmi Narayanan</item>
+        <item>Saif Hasan Naqvi </item>
+    </string-array>
+
+
+    ##### Hyderabad Batsmen 0-4 Wicketkeeper 12-13 All rounder 5-11 Bowler 14-24 Coach 25-30
+    <string-array name="hyderabadRuns">
+        <item>3373</item>
+        <item>3082</item>
+        <item>155</item>
+        <item>-</item>
+        <item>-</item>
+        <item>692</item>
+        <item>2336</item>
+        <item>156</item>
+        <item>73</item>
+        <item>295</item>
+        <item>0</item>
+        <item>-</item>
+        <item>1474</item>
+        <item>24</item>
+        <item>154</item>
+        <item>4</item>
+        <item>41</item>
+        <item>0</item>
+        <item>34</item>
+        <item>9</item>
+        <item>-</item>
+        <item>3</item>
+        <item>4</item>
+        <item>18</item>
+        <item>-</item>
+        <item>282</item>
+        <item>-</item>
+        <item>-</item>
+        <item>20</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="hyderabadWickets">
+        <item>-</item>
+        <item>4</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>37</item>
+        <item>35</item>
+        <item>14</item>
+        <item>6</item>
+        <item>4</item>
+        <item>0</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>85</item>
+        <item>14</item>
+        <item>98</item>
+        <item>17</item>
+        <item>7</item>
+        <item>6</item>
+        <item>-</item>
+        <item>11</item>
+        <item>1</item>
+        <item>28</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>63</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="hyderabadHighestScore">
+        <item>109*</item>
+        <item>95*</item>
+        <item>50</item>
+        <item>-</item>
+        <item>-</item>
+        <item>74*</item>
+        <item>83</item>
+        <item>35*</item>
+        <item>39*</item>
+        <item>54</item>
+        <item>0*</item>
+        <item>-</item>
+        <item>94*</item>
+        <item>19</item>
+        <item>24*</item>
+        <item>2*</item>
+        <item>22*</item>
+        <item>0*</item>
+        <item>11</item>
+        <item>7*</item>
+        <item>-</item>
+        <item>3</item>
+        <item>4*</item>
+        <item>7*</item>
+        <item>-</item>
+        <item>52</item>
+        <item>-</item>
+        <item>-</item>
+        <item>6</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="hyderabadStrikeRate">
+        <item>142.2</item>
+        <item>121.05</item>
+        <item>104.02</item>
+        <item>-</item>
+        <item>-</item>
+        <item>125.13</item>
+        <item>130.14</item>
+        <item>157.57</item>
+        <item>182.5</item>
+        <item>136.57</item>
+        <item>0</item>
+        <item>-</item>
+        <item>118.48</item>
+        <item>171.42</item>
+        <item>100.65</item>
+        <item>100</item>
+        <item>66.12</item>
+        <item>0</item>
+        <item>130.76</item>
+        <item>81.81</item>
+        <item>-</item>
+        <item>75</item>
+        <item>44.44</item>
+        <item>46.15</item>
+        <item>-</item>
+        <item>105.62</item>
+        <item>-</item>
+        <item>-</item>
+        <item>66.67</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="hyderabadEconomy">
+        <item>-</item>
+        <item>8.25</item>
+        <item>7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>8.01</item>
+        <item>7.33</item>
+        <item>8.1</item>
+        <item>7.31</item>
+        <item>8.02</item>
+        <item>19</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.09</item>
+        <item>8.53</item>
+        <item>7.74</item>
+        <item>6.9</item>
+        <item>9.83</item>
+        <item>8.49</item>
+        <item>-</item>
+        <item>9.21</item>
+        <item>10.14</item>
+        <item>7.75</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>6.69</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="hyderabadBestBowl">
+        <item>-</item>
+        <item>1/7</item>
+        <item>0/7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3/16</item>
+        <item>4/29</item>
+        <item>2/13</item>
+        <item>2/20</item>
+        <item>2/16</item>
+        <item>0/19</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>4/14</item>
+        <item>3/28</item>
+        <item>4/10</item>
+        <item>3/16</item>
+        <item>2/37</item>
+        <item>2/27</item>
+        <item>-</item>
+        <item>4/11</item>
+        <item>1/25</item>
+        <item>4/20</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3/9</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+    <string-array name="hyderabadPrice">
+        <item>₹5.5Cr</item>
+        <item>₹12.5Cr</item>
+        <item>₹60L</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹1Cr</item>
+        <item>₹7Cr</item>
+        <item>₹10L</item>
+        <item>₹50L</item>
+        <item>₹4.2Cr</item>
+        <item>₹35L</item>
+        <item>₹30L</item>
+        <item>₹50L</item>
+        <item>₹75L</item>
+        <item>₹4.25Cr</item>
+        <item>₹1.20Cr</item>
+        <item>₹5.50Cr</item>
+        <item>₹1.40Cr</item>
+        <item>₹30L</item>
+        <item>₹10L</item>
+        <item>₹4Cr</item>
+        <item>₹50L</item>
+        <item>₹30L</item>
+        <item>₹10L</item>
+        <item>₹2.60Cr</item>
+        <item>Mentor</item>
+        <item>Head Coach</item>
+        <item>Assistant Coach</item>
+        <item>Bowling Coach</item>
+        <item>Performance Analyst</item>
+        <item>Physiotherapist</item>
+    </string-array>
+
+    <string-array name="hyderabadAll">
+        <item>David Warner © ✈️</item>
+        <item>Shikhar Dhawan</item>
+        <item>Kane Williamson ✈️</item>
+        <item>Ricky bhui</item>
+        <item>Tanmay Agrawal</item>
+        <item>Moises Henriques ✈</item>
+        <item>Yuvraj Singh</item>
+        <item>Bipul Sharma</item>
+        <item>Ben Cutting ✈️</item>
+        <item>Deepak Hooda</item>
+        <item>Vijay Shankar</item>
+        <item>Mohammad Nabi ✈️</item>
+        <item>Naman Ojha</item>
+        <item>Eklavya Dwivedi</item>
+        <item>Bhuveneshwar Kumar</item>
+        <item>Barinder Sran</item>
+        <item>Ashish Nehra</item>
+        <item>Mustafizur Rahman ✈️</item>
+        <item>Abhimanyu Mithun</item>
+        <item>Siddarth Kaul</item>
+        <item>Rashid Khan ✈️</item>
+        <item>Chris Jordan ✈️</item>
+        <item>Ben Laughlin ✈️</item>
+        <item>Pravin Tambe</item>
+        <item>Mohammed Siraj</item>
+        <item>VVS Laxman</item>
+        <item>Tom Moody</item>
+        <item>Simon Helmot</item>
+        <item>Muttiah Muralitharan</item>
+        <item>Shrinivas</item>
+        <item>Theo Kapakoulakis</item>
+    </string-array>
+
+    <string-array name="allPlayersNameDelhi">##batsman (0-4), wicketkeeper(5-9), all-rounder(10-15),
+        bowlers(16-25), coach(26-36)
+        <item>Shreyas Iyer</item>
+        <item>JP Duminy ✈</item>
+        <item>Karun Nair</item>
+        <item>Ankit Bawne</item>
+        <item>Pratyush Singh</item>
+        <item>Quinton de Kock ✈</item>
+        <item>Aditya Tare</item>
+        <item>Sanju Samson</item>
+        <item>Rishabh Pant</item>
+        <item>Sam Billings ✈</item>
+        <item>Carlos Brathwaite ✈</item>
+        <item>Shashank Singh</item>
+        <item>Angelo Mathews ✈</item>
+        <item>Corey Anderson ✈</item>
+        <item>Chris Morris ✈</item>
+        <item>Jayant Yadav</item>
+        <item>Zaheer Khan ©</item>
+        <item>Mohammad Shami</item>
+        <item>Kagiso Rabada ✈</item>
+        <item>Pat Cummins ✈</item>
+        <item>Navdeep Saini</item>
+        <item>Shahbaz Nadeem</item>
+        <item>Murugan Ashwin</item>
+        <item>Khaleel Ahmed</item>
+        <item>CV Milind</item>
+        <item>Amit Mishra</item>
+        <item>Rahul Dravid</item>
+        <item>Paddy Upton</item>
+        <item>TA Sekar</item>
+        <item>S Sriram</item>
+        <item>Pravin Amre</item>
+        <item>Zubin Bharucha</item>
+        <item>Sunil Valson</item>
+        <item>Paul Close</item>
+        <item>Vaibhav Daga</item>
+        <item>Rajnikanth</item>
+        <item>Rajeev Kumar</item>
+    </string-array>
+
+    <string-array name="allPlayersPriceDelhi">##batsman (1-5), wicketkeeper(6-10),
+        all-rounder(11-15), bowlers(16-26), coach(27-37)
+        <item>₹2.6Cr</item>
+        <item>₹2.2Cr</item>
+        <item>₹4Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹3.5Cr</item>
+        <item>₹25L</item>
+        <item>₹4.2Cr</item>
+        <item>₹1.9Cr</item>
+        <item>₹30L</item>
+        <item>₹4.2Cr</item>
+        <item>₹10L</item>
+        <item>₹2Cr</item>
+        <item>₹1Cr</item>
+        <item>₹7Cr</item>
+        <item>₹10L</item>
+        <item>₹4Cr</item>
+        <item>₹4.25Cr</item>
+        <item>₹5Cr</item>
+        <item>₹4.5Cr</item>
+        <item>₹10L</item>
+        <item>₹85L</item>
+        <item>₹1Cr</item>
+        <item>₹10L</item>
+        <item>₹10L</item>
+        <item>₹3.5Cr</item>
+        <item>Mentor</item>
+        <item>Head Coach</item>
+        <item>Bowling Coach</item>
+        <item>Batting Coach</item>
+        <item>Batting Coach</item>
+        <item>Technical Director</item>
+        <item>Team Manager</item>
+        <item>Physiotherapist</item>
+        <item>Physiotherapist</item>
+        <item>Trainer </item>
+        <item>Masseur</item>
+    </string-array>
+
+
+    <string-array name="allPlayersEcoRateDelhi">##batsman (1-5), wicketkeeper(6-10),
+        all-rounder(11-15), bowlers(16-26), coach(27-37)
+        <item>-</item>
+        <item>7.25</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>8.15</item>
+        <item>-</item>
+        <item>8.06</item>
+        <item>9.86</item>
+        <item>7.5</item>
+        <item>6.41</item>
+        <item>7.56</item>
+        <item>8.85</item>
+        <item>-</item>
+        <item>9</item>
+        <item>-</item>
+        <item>7.14</item>
+        <item>8.45</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7.27</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="allPlayersBowlBestDelhi">##batsman (1-5), wicketkeeper(6-10),
+        all-rounder(11-15), bowlers(16-26), coach(27-37)
+        <item>-</item>
+        <item>4/17</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>3/47</item>
+        <item>-</item>
+        <item>4/19</item>
+        <item>2/18</item>
+        <item>4/23</item>
+        <item>1/8</item>
+        <item>4/17</item>
+        <item>2/34</item>
+        <item>-</item>
+        <item>1/29</item>
+        <item>-</item>
+        <item>3/16</item>
+        <item>3/36</item>
+        <item>-</item>
+        <item>-</item>
+        <item>5/17</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="allPlayersWicketsDelhi">
+        <item>-</item>
+        <item>23</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>7</item>
+        <item>-</item>
+        <item>27</item>
+        <item>5</item>
+        <item>41</item>
+        <item>4</item>
+        <item>92</item>
+        <item>13</item>
+        <item>-</item>
+        <item>2</item>
+        <item>-</item>
+        <item>31</item>
+        <item>7</item>
+        <item>-</item>
+        <item>-</item>
+        <item>124</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="allPlayersStrikeRateDelhi">##batsman (1-5), wicketkeeper(6-10),
+        all-rounder(11-15), bowlers(16-26), coach(27-37)
+        <item>121.81</item>
+        <item>124.87</item>
+        <item>127.84</item>
+        <item>-</item>
+        <item>-</item>
+        <item>132.24</item>
+        <item>128.40</item>
+        <item>119.12</item>
+        <item>130.24</item>
+        <item>137.50</item>
+        <item>218.42</item>
+        <item>-</item>
+        <item>126.27</item>
+        <item>136.33</item>
+        <item>166.66</item>
+        <item>60</item>
+        <item>88.28</item>
+        <item>40.74</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>39.34</item>
+        <item>0</item>
+        <item>-</item>
+        <item>-</item>
+        <item>93.56</item>
+        <item>115.2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="allPlayersRunsBestDelhi">##batsman (1-5), wicketkeeper(6-10),
+        all-rounder(11-15), bowlers(16-26), coach(27-37)
+        <item>83</item>
+        <item>78*</item>
+        <item>83*</item>
+        <item>-</item>
+        <item>-</item>
+        <item>108</item>
+        <item>59</item>
+        <item>76</item>
+        <item>69</item>
+        <item>54</item>
+        <item>34</item>
+        <item>-</item>
+        <item>65*</item>
+        <item>95*</item>
+        <item>82*</item>
+        <item>5</item>
+        <item>23*</item>
+        <item>5</item>
+        <item>-</item>
+        <item>0*</item>
+        <item>-</item>
+        <item>6</item>
+        <item>0*</item>
+        <item>-</item>
+        <item>-</item>
+        <item>31</item>
+        <item>75</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="allPlayersRunsDelhi">##batsman (1-5), wicketkeeper(6-10),
+        all-rounder(11-15), bowlers(16-26), coach(27-37)
+        <item>469</item>
+        <item>1993</item>
+        <item>877</item>
+        <item>-</item>
+        <item>-</item>
+        <item>726</item>
+        <item>321</item>
+        <item>1040</item>
+        <item>198</item>
+        <item>88</item>
+        <item>83</item>
+        <item>-</item>
+        <item>692</item>
+        <item>379</item>
+        <item>285</item>
+        <item>6</item>
+        <item>113</item>
+        <item>11</item>
+        <item>-</item>
+        <item>0</item>
+        <item>-</item>
+        <item>24</item>
+        <item>0</item>
+        <item>-</item>
+        <item>-</item>
+        <item>291</item>
+        <item>2174</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+</resources>
